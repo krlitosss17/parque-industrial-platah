@@ -31,12 +31,25 @@
       </div>
     </header>
 
-    <!-- Portada -->
-    <section class="relative h-screen bg-cover bg-center" style="background-image: url('/images/wall_01.png');">
-      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-        <h1 class="text-white text-4xl md:text-6xl font-bold">Parque Industrial Platah</h1>
+<!-- Portada -->
+<section id="top" class="relative h-screen bg-cover bg-center" style="background-image: url('/images/wall_01.webp');">
+  <!-- Capa oscura encima del fondo -->
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center px-6">
+    <div class="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Imagen a la izquierda -->
+      <div class="flex justify-center">
+        <img src="/images/logo_w.webp" alt="Industria" class="w-80 max-w-full">
       </div>
-    </section>
+
+      <!-- Texto a la derecha -->
+      <div class="text-white text-center md:text-left">
+        <h1 class="text-4xl md:text-6xl font-montserrat font-bold">Parque Industrial PLATAH</h1>
+        <p class="mt-4 text-lg md:text-xl max-w-xl">Conectando empresas con infraestructura y oportunidades en el corazón de México.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Secciones (serán componentes después) -->
     <section id="nosotros" class="py-20 bg-gray-50 text-center">
@@ -59,7 +72,7 @@
 <style scoped>
 /* Barra de navegación - Header */
 header {
-  backdrop-filter: blur(10px); /* Da el efecto de desenfoque detrás del header */
+  backdrop-filter: blur(2px); /* Da el efecto de desenfoque detrás del header */
 }
 
 nav a {

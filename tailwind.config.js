@@ -17,6 +17,16 @@ export default {
             },
         },
     },
+// tailwind.config.js
+theme: {
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+    },
+  },
+  
+    
 
     plugins: [forms],
 };
