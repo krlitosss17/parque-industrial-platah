@@ -1,5 +1,7 @@
 import './bootstrap';
 import '../css/app.css';
+import 'animate.css';
+
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
@@ -21,3 +23,9 @@ createInertiaApp({
         color: '#4B5563',
     },
 });
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+// Inicializa AOS
+AOS.init()
